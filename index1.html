@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Document</title>
+<style>
+body {
+background-color: #e9f7ef; margin: 0;
+padding: 20px;
+font-family: 'Arial', sans-serif;
+}
+.container { position: relative; height: 250px;
+}
+.satu, .dua { position: absolute; width: 150px; height: 150px;
+border-radius: 15px;
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); transition: transform 0.3s, box-shadow 0.3s; display: flex;
+justify-content: center; align-items: center; color: white;
+ 
+font-weight: bold; font-size: 1.2em;
+}
+.satu {
+background-color: #4caf50; /* Hijau */ top: 20px;
+left: 20px;
+}
+.dua {
+background-color: #673ab7; /* Ungu */ top: 20px;
+left: 200px;
+}
+.satu:hover, .dua:hover { transform: scale(1.1);
+box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="satu">Satu</div>
+<div class="dua">Dua</div>
+</div>
+</body>
+</html>
